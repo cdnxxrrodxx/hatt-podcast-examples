@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <h1>Native Image Features</h1>
+
+        <section class="demo-card">
+        <h2>Art Direction with picture</h2>
+        <p>
+            Resize the browser to swap between portrait and landscape crops.
+        </p>
+
+        <picture>
+            <source
+            media="(max-width: 600px)"
+            srcset="https://picsum.photos/id/1084/500/700"
+            >
+            <source
+            media="(min-width: 601px)"
+            srcset="https://picsum.photos/id/1084/1000/500"
+            >
+            <img
+            src="https://picsum.photos/id/1084/1000/500"
+            width="1000"
+            height="500"
+            alt="Walrus on a beach"
+            >
+        </picture>
+        </section>
+    </body>
+</html>

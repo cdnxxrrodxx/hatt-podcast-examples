@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <h1>Native Popover</h1>
+
+        <h2>Basic Popover</h2>
+
+        <button popovertarget="info-popover">
+        Show Popover
+        </button>
+
+        <div id="info-popover" popover>
+        <h3>HTML All The Things</h3>
+        <p>
+            This is a native HTML Popover. Click outside of it or press Escape to close
+            it.
+        </p>
+        </div>
+
+        <hr>
+
+        <h2>Dropdown Menu</h2>
+
+        <button popovertarget="account-menu">
+        My Account ▼
+        </button>
+
+        <div id="account-menu" popover>
+        <a href="#">Profile</a>
+        <a href="#">Settings</a>
+        <a href="#">Billing</a>
+        <a href="#">Log Out</a>
+        </div>
+    </body>
+</html>

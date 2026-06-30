@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 3rem;
+  font-family: system-ui, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+  text-align: center;
+}
+
+button {
+  padding: .75rem 1.25rem;
+  font: inherit;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+hr {
+  margin: 3rem auto;
+  max-width: 500px;
+}
+
+[popover] {
+  width: min(320px, 90vw);
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 15px 40px rgb(0 0 0 / .15);
+}
+
+[popover]::backdrop {
+  background: rgb(0 0 0 / .15);
+}
+
+#account-menu {
+  padding: .5rem;
+}
+
+#account-menu a {
+  display: block;
+  padding: .75rem 1rem;
+  color: #222;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+#account-menu a:hover {
+  background: #f3f3f3;
+}

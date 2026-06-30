@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 3rem;
+  font-family: system-ui, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+  text-align: center;
+}
+
+button {
+  font: inherit;
+  padding: .75rem 1.25rem;
+  cursor: pointer;
+}
+
+dialog {
+  width: min(400px, 90vw);
+  border: none;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 20px 50px rgb(0 0 0 / .3);
+}
+
+dialog::backdrop {
+  background: rgb(0 0 0 / .5);
+}
+
+dialog h2 {
+  margin-top: 0;
+}
+
+dialog form {
+  display: flex;
+  justify-content: flex-end;
+  gap: .75rem;
+  margin-top: 1.5rem;
+}

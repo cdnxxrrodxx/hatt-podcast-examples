@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <h1>Native Image Features</h1>
+
+        <section class="demo-card">
+        <h2>2. Responsive Images with srcset</h2>
+        <p>
+            Resize the browser and inspect the Network tab to see which image size the
+            browser chooses.
+        </p>
+
+        <img
+            src="https://picsum.photos/id/1067/800/500"
+            srcset="
+            https://picsum.photos/id/1067/400/250 400w,
+            https://picsum.photos/id/1067/800/500 800w,
+            https://picsum.photos/id/1067/1200/750 1200w
+            "
+            sizes="(max-width: 600px) 90vw, 700px"
+            width="800"
+            height="500"
+            alt="Mountain valley"
+        >
+        </section>
+    </body>
+</html>

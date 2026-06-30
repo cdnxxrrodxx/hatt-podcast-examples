@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <h1>Native Dialog w/ JS Controls</h1>
+
+        <button id="openDialog">Open Dialog</button>
+
+        <dialog id="demoDialog">
+        <h2>Delete Project?</h2>
+
+        <p>
+            Are you sure you want to delete this project? This action cannot be undone.
+        </p>
+
+        <form method="dialog">
+            <button value="cancel">Cancel</button>
+            <button value="delete">Delete</button>
+        </form>
+        </dialog>
+
+        <script>
+        const dialog = document.getElementById("demoDialog");
+        const openButton = document.getElementById("openDialog");
+
+        openButton.addEventListener("click", () => {
+            dialog.showModal();
+        });
+
+        dialog.addEventListener("close", () => {
+            console.log("Dialog closed with:", dialog.returnValue);
+        });
+        </script>
+    </body>
+</html>
