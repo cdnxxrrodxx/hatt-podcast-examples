@@ -1,7 +1,9 @@
 # Examples from HTML All The Things Podcast 
 
 ## Episode 496 - JavaScript Isn't Always the Answer Native Browser Features Every Developer Should Know
-[View Examples from Episode 496](/496%20-%20JavaScript%20Isn't%20Always%20the%20Answer%20Native%20Browser%20Features%20Every%20Developer%20Should%20Know/)
+[View Examples from Episode 496](/496%20-%20JavaScript%20Isn't%20Always%20the%20Answer%20Native%20Browser%20Features%20Every%20Developer%20Should%20Know/)  
+[View Show Notes from Episode 496](https://www.htmlallthethings.com/podcast/javascript-isnt-always-the-answer-native-browser-features-every-developer-should-know)  
+
 Examples from this episode include:
 - Form validation (using just HTML + the browser)
 - `<details>` and `<summary>` elements
